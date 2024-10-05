@@ -1,0 +1,82 @@
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.dropdown:hover{
+    border-radius: 5% 5% 0% 0%;
+    background-color:rgb(47, 46, 46);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0px;
+    border-radius: 0% 5% 5% 5%;
+}
+.dropdown-item:hover{
+    background-color: black;
+}
+.asideChild{
+    display: none;
+    left: 14.5%;
+}
+.aside:hover .asideChild{
+    display: flex;
+    position: fixed;
+}
+.aside a{
+    color: grey;
+    font-size: 12px;
+}
+.aside a:hover{
+    color: black;
+}
+.aside .list{
+    color: grey;
+}
+.aside .list:hover{
+    cursor:default;
+    background-color: whitesmoke;
+    color: black;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-left: 3px solid red;
+}
+.section-3 a{
+    color: black;
+}
+.linkHoverUnderline a{
+    color:gray
+}
+.linkHoverUnderline a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.linkHoverUnderline p a{
+    color: blue;
+}
+.linkHoverUnderline p a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.footer{
+    color: grey;
+}
+.footer a{
+    color: grey;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+#display{
+    display: none;
+}
+Button:hover #display{
+    display: block;
+    background-color: white;
+}
+.active:active{
+    border-bottom: 3px solid red;
+}
+.shadows:hover{
+    box-shadow: 0px 2px 7px 2px black;
+}
